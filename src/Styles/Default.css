@@ -1,0 +1,25 @@
+:root{
+    --BaseColor:#E8BCF0;
+    /* --BaseColor:whitesmoke; */
+    --PrimaryColor:#5E3966;
+    /* --PrimaryColor:#f5f5f5; */
+    --PrimaryColor:#7c4b87;
+    --SecondaryColour:#00766E;
+    --ActionColor:#00C9BC;
+    --ActionColorTransparent:#00c9bc56;
+    --PrimaryColorTransparent:#5e396691;;
+    --heroTransparent: #23857a5c;
+    --SecondaryButton:#cc6cde;
+    --paragraphSize:0.9em;
+    --btnFontSize:0.8rem;
+  }
+  /* #78577e; */
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  a{
+    text-decoration: none;
+    }

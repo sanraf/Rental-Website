@@ -1,0 +1,173 @@
+
+.gallery-wrapper{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem 0;
+    background: whitesmoke;
+    background: linear-gradient(to top,var(--PrimaryColor) 43.3%,whitesmoke 40%),url('../Assets/tent-event2.jpeg');
+    /* background-color: whitesmoke; */
+}
+
+.gallery-wrapper .line_logo{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.line_logo hr{
+  width: 30%;
+  height: 2px;
+  border: none;
+  background-color: var(--PrimaryColor)
+}
+
+.line_logo img{
+  height: 5rem;
+  width: 5rem;
+  filter: invert(1);
+}
+/* #3e4756 */
+.gallery-wrapper h1{
+  padding: 1rem;
+  margin: 3rem 0;
+  color: var(--SecondaryColour);
+  font-size: 2.2em;
+
+}
+
+
+.image-grid{
+    width: fit-content;
+    /* display: grid; */
+    display: flex;
+    justify-content: center;
+    place-items: center;
+    place-content: center;
+    flex-wrap:wrap;
+    /* justify-items:center;
+    justify-content: center;
+    grid-template-columns: repeat(3,1fr); */
+    column-gap: 2.5rem;
+    row-gap: 4rem;
+    padding: 10px;
+    margin-top: 2rem;
+    /* background-color: rgb(15, 108, 189); */
+  }
+  
+  .image-item {
+    width: 270px;
+    height: 510px;
+    padding-bottom: 1rem;
+    overflow: hidden;
+    background-color: var(--BaseColor);
+    border-radius: 5px;
+    box-shadow: 1px 4px 10px rgba(0, 0, 0, 0.342);
+  }
+  
+  .image-item img {
+    width: 100%;
+    height: 265px;
+    display: block;
+    transition: transform 0.2s ease;
+  }
+  
+  .image-item img:hover {
+    transform: scale(1.05);
+  }
+
+  .image-item h3{
+    color: var(--SecondaryColour);
+      margin: 1rem 0;
+      font-size: 1em;
+  }
+
+
+  .image-item p{
+    display: flex;
+    align-items: center;
+    height: 121px;
+    padding: 0 0.5rem;
+    text-align: center;
+    font-size: 0.9em;
+    color: var(--SecondaryColour);
+}
+
+.image-item button{
+  position: relative;
+  bottom:-1%;
+  margin: 1rem 0;
+  padding: 10px 15px;
+  font-weight: 400;
+  font-size: 0.8em;
+  border: none;
+  border-radius: 1.2rem;
+  background-color: var(--SecondaryButton);
+  color: var(--BaseColor);
+  box-shadow: 1px 3px 10px rgba(0, 0, 0, 0.479);
+  cursor: pointer;
+  transition: all 400ms ease-in-out;
+}
+
+.image-item button:hover{
+  background-color: var(--BaseColor);
+  color: var(--SecondaryButton);
+  transform: scale(1.02);
+}
+
+.pagination{
+height: fit-content;
+padding: 10px 2px;
+list-style: none;
+display: flex;
+justify-content: center;
+align-items: center;
+margin: 2rem 0;
+font-size: 1em;
+gap: 3px;
+background-color: whitesmoke;
+border-radius: 1.5rem;
+box-shadow: 1px 4px 10px rgba(0, 0, 0, 0.342);
+}
+
+.pagination .page-num{
+  padding: 8px 15px;
+  cursor: pointer;
+  border-radius: 2rem;
+  color: var(--SecondaryColour);
+  font-weight: 600;
+}
+
+.pagination .page-num:hover{
+  background-color: #e9aff3;
+  /* color: var(--BaseColor); */
+}
+
+.pagination .active{
+  color: var(--BaseColor);
+  background-color: var(--SecondaryButton);
+}
+
+.pagination .active:hover{
+  color: var(--BaseColor);
+  background-color: var(--SecondaryButton);
+}
+
+.gallery-wrapper hr{
+  position: relative;
+  background-color: var(--BaseColor);
+  height: 1px;
+  bottom: 0%;
+  border: none;
+width: 100%;}
+
+/* containerClassName="pagination"
+            pageLinkClassName="page-num"
+            previousLinkClassName="page-num"
+            nextLinkClassName="page-num"
+            activeLinkClassName="active" */
+
+  
