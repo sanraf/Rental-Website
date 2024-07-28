@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import '../Styles/GetQuote.css'
+import '../Styles/GetQuote.css';
 import logo from '../Assets/logo4.png'
 const ProductOrderForm = () => {
 
@@ -23,7 +23,7 @@ const ProductOrderForm = () => {
   });
 
   useEffect(()=>{
-    const itemTent = products.find(product =>product.id ==1);
+    const itemTent = products.find(product =>product.id ===1);
     if(itemTent){
         setInstallTent(itemTent.checked)
     }
