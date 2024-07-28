@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/Rental-Website/static/css/main.700b8f0b.css",
+    "main.js": "/Rental-Website/static/js/main.09098863.js",
+    "static/js/453.bb828c5d.chunk.js": "/Rental-Website/static/js/453.bb828c5d.chunk.js",
+    "static/media/artificial-grass.jpeg": "/Rental-Website/static/media/artificial-grass.bcd450a079c72fa62b98.jpeg",
+    "static/media/welcome-tent.jpeg": "/Rental-Website/static/media/welcome-tent.4a2e08759b8ddc7d4a14.jpeg",
+    "static/media/maps.jpg": "/Rental-Website/static/media/maps.b979f6085b27f658f5fa.jpg",
+    "static/media/artificial-grass2.jpeg": "/Rental-Website/static/media/artificial-grass2.e2e16e0bf278b289ff96.jpeg",
+    "static/media/tent-event2.jpeg": "/Rental-Website/static/media/tent-event2.3ad7c55afcb6600be8d4.jpeg",
+    "static/media/tent-event.jpeg": "/Rental-Website/static/media/tent-event.6ee50502a2fb12323cc9.jpeg",
+    "static/media/tent.jpg": "/Rental-Website/static/media/tent.3a603622b320400f3cef.jpg",
+    "static/media/tables.jpg": "/Rental-Website/static/media/tables.ff3d89b02dfe1bdbf75f.jpg",
+    "static/media/chair-covers1.jpeg": "/Rental-Website/static/media/chair-covers1.0b0dcafac6978eead5c0.jpeg",
+    "static/media/stack-chairs.jpg": "/Rental-Website/static/media/stack-chairs.65d5443854a609cd5974.jpg",
+    "static/media/chair-covers.jpeg": "/Rental-Website/static/media/chair-covers.ba5d94be9bc0b8d4e2a5.jpeg",
+    "static/media/chair1.jpg": "/Rental-Website/static/media/chair1.34ef274ed645fa168293.jpg",
+    "static/media/logo4.png": "/Rental-Website/static/media/logo4.bbfe32ed2a7e0bf7468b.png",
+    "static/media/logo.svg": "/Rental-Website/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/Rental-Website/index.html",
+    "static/media/triangle.svg": "/Rental-Website/static/media/triangle.70ffc2cf472a41ef573c.svg",
+    "main.700b8f0b.css.map": "/Rental-Website/static/css/main.700b8f0b.css.map",
+    "main.09098863.js.map": "/Rental-Website/static/js/main.09098863.js.map",
+    "453.bb828c5d.chunk.js.map": "/Rental-Website/static/js/453.bb828c5d.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.700b8f0b.css",
+    "static/js/main.09098863.js"
+  ]
+}
