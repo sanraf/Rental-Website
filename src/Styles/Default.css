@@ -1,8 +1,7 @@
 :root{
     --BaseColor:#E8BCF0;
-    /* --BaseColor:whitesmoke; */
+    --blendingColor:whitesmoke; 
     --PrimaryColor:#5E3966;
-    /* --PrimaryColor:#f5f5f5; */
     --PrimaryColor:#7c4b87;
     --SecondaryColour:#00766E;
     --ActionColor:#00C9BC;

@@ -7,7 +7,7 @@
     align-items: center;
     gap:1rem;
     padding: 3rem;
-    background-color: whitesmoke;
+    background-color: var(--blendingColor);
 }
 
 .quote-wrapper .line_logo{
@@ -39,7 +39,7 @@
 
   .quote-wrapper .quote-form{
     width:510px;
-    height: 700px;
+    min-height: 700px;
     padding: 2rem 0.5rem;
      margin: 0 auto;
      padding: 20px;

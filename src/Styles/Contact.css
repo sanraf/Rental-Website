@@ -12,7 +12,7 @@
    
 
     background-image: url('../Assets/triangle.svg');
-    background: linear-gradient(to bottom,var(--BaseColor) 50%,whitesmoke 50%);
+    background: linear-gradient(to bottom,var(--BaseColor) 50%,var(--blendingColor) 50%);
     /* background: linear-gradient(65deg,#ff0000 0%,#ff0000 15%,#ffff00 15%,#ff0000 30%,
     #00ff00 30%,#00ff00 45%,#0000ff 60%,var(--PrimaryColor) 50%); */
 
@@ -49,7 +49,7 @@
 .contact-wrapper h3{
     font-size: 0.9em;
     color: var(--SecondaryColour);
-    margin-bottom: 2rem;
+    margin-bottom: 2.5rem;
 }
 
 .contact-wrapper .cont-details{
@@ -82,34 +82,41 @@
 
 }
 
+.cont-icon_wrapper{
+  padding: 0;
+  position: relative;
+  top: -1.7rem;
+  padding: 0.5rem;
+  border-radius: 13px;
+  background-color: var(--blendingColor);
+  box-shadow: 1px 4px 10px rgba(0, 0, 0, 0.342);
+}
+
 .icon-holder .cont-icon{
     color: var(--SecondaryColour);
-    font-size: 2.5em;
-    padding: 0;
-    position: relative;
-    top: -1.3rem;
-    padding: 0.5rem;
-    border-radius: 13px;
-    background-color: whitesmoke;
+    font-size: 2.2em;
+
+    
+   
     /* border: 1px solid var(--PrimaryColor); */
-    box-shadow: 1px 4px 10px rgba(0, 0, 0, 0.342);
+   
   }
 
   .icon-holder h2{
-    color: whitesmoke;
+    color: var(--blendingColor);
     margin-top: -.5rem;
     margin-bottom: 1rem;
   }
 
   .icon-holder h6{
-    color: whitesmoke;
+    color: var(--blendingColor);
     font-size: var(--paragraphSize);
-    font-weight: 600;
+    font-weight: 400;
     margin-bottom: .5rem;
   }
 
   .icon-holder p{
-    color: whitesmoke;
+    color: var(--blendingColor);
     font-size: var(--paragraphSize);
     font-weight: 100;
     display: flex;
@@ -126,7 +133,7 @@
     align-items: center;
     justify-content: center;
     border-radius: 0 0 5px 5px;
-    background-color: whitesmoke;
+    background-color: var(--blendingColor);
   }
 
   .btm-txt button{
@@ -136,7 +143,7 @@
     padding: 0.5rem 0;
     font-size: 0.9rem;
     color: var(--SecondaryButton);
-    background-color: whitesmoke;
+    background-color: var(--blendingColor);
     cursor: pointer;
     font-weight:600;
     border: none;
@@ -179,7 +186,7 @@
 
 .cont_media-wrapper .cont_media-icon:hover{
     background-color: var(--SecondaryButton);
-    color: whitesmoke;
+    color: var(--blendingColor);
    
 }
 
@@ -202,39 +209,8 @@ margin-top: 3rem;
 
 .copyright_wrapper h5{
     color: var(--PrimaryColor);
-    font-weight: 600;
+    font-weight: 400;
 }
-
-
-
-
-/* 
-.cont-details{
-    width: 40%;
-    height:auto;
-    display: flex;
-    flex-direction: column;
-    align-items: start;
-    padding: 1rem;
-    background-color: var(--BaseColor);
-
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
   .cont-details .sub-info{
@@ -255,12 +231,6 @@ margin-top: 3rem;
 
   
 
-
-
-
-
-
-
   .bg-wrapper{
     width: 40%;
     height: 90%;
@@ -278,9 +248,8 @@ margin-top: 3rem;
     
   }
 
-
-
-
-
-
- */
+  @media screen and (max-width: 600px){
+    .contact-wrapper{
+      background: linear-gradient(to bottom,var(--BaseColor) 52%,var(--blendingColor) 52%);
+  }
+  }

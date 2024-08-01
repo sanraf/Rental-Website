@@ -6,9 +6,9 @@
     flex-direction: column;
     align-items: center;
     padding: 2rem 0;
-    background: whitesmoke;
-    background: linear-gradient(to top,var(--PrimaryColor) 43.3%,whitesmoke 40%),url('../Assets/tent-event2.jpeg');
-    /* background-color: whitesmoke; */
+    background: var(--blendingColor);
+    background: linear-gradient(to top,var(--PrimaryColor) 43.3%,var(--blendingColor) 40%),url('../Assets/tent-event2.jpeg');
+    
 }
 
 .gallery-wrapper .line_logo{
@@ -33,7 +33,7 @@
 /* #3e4756 */
 .gallery-wrapper h1{
   padding: 1rem;
-  margin: 3rem 0;
+  margin: 1.5rem 0;
   color: var(--SecondaryColour);
   font-size: 2.2em;
 
@@ -42,20 +42,15 @@
 
 .image-grid{
     width: fit-content;
-    /* display: grid; */
     display: flex;
     justify-content: center;
     place-items: center;
     place-content: center;
     flex-wrap:wrap;
-    /* justify-items:center;
-    justify-content: center;
-    grid-template-columns: repeat(3,1fr); */
     column-gap: 2.5rem;
     row-gap: 4rem;
     padding: 10px;
     margin-top: 2rem;
-    /* background-color: rgb(15, 108, 189); */
   }
   
   .image-item {
@@ -128,7 +123,7 @@ align-items: center;
 margin: 2rem 0;
 font-size: 1em;
 gap: 3px;
-background-color: whitesmoke;
+background-color: var(--blendingColor);
 border-radius: 1.5rem;
 box-shadow: 1px 4px 10px rgba(0, 0, 0, 0.342);
 }
@@ -143,7 +138,6 @@ box-shadow: 1px 4px 10px rgba(0, 0, 0, 0.342);
 
 .pagination .page-num:hover{
   background-color: #e9aff3;
-  /* color: var(--BaseColor); */
 }
 
 .pagination .active{
@@ -164,10 +158,11 @@ box-shadow: 1px 4px 10px rgba(0, 0, 0, 0.342);
   border: none;
 width: 100%;}
 
-/* containerClassName="pagination"
-            pageLinkClassName="page-num"
-            previousLinkClassName="page-num"
-            nextLinkClassName="page-num"
-            activeLinkClassName="active" */
 
-  
+  @media screen and (max-width : 600px) {
+    
+    .image-grid{
+
+      margin-top: 0rem;
+    }
+  }

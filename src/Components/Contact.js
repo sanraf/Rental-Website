@@ -23,7 +23,10 @@ function Contact() {
 
         <div className="icon-holder">
           <div className="top-holder">
-          <MdEmail className="cont-icon" />
+            <div className="cont-icon_wrapper">
+            <MdEmail className="cont-icon" />
+            </div>
+          
           <h2>EMAIL</h2>
           <h6>EventEquipment@RosieTent.co.za</h6>
           </div>
@@ -37,7 +40,10 @@ function Contact() {
 
         <div className="icon-holder">
           <div className="top-holder">
-          <BsTelephoneInboundFill className="cont-icon" />
+            <div className="cont-icon_wrapper">
+            <BsTelephoneInboundFill className="cont-icon" />
+            </div>
+          
           <h2>CALL</h2>
           <h6>+2701234567</h6>
           <p>Monday-Thursday 8:00am - 4:00pm</p>
@@ -56,7 +62,10 @@ function Contact() {
 
         <div className="icon-holder">
         <div className="top-holder">
+          <div className="cont-icon_wrapper">
           <BsChatDotsFill className="cont-icon" />
+          </div>
+          
           <h2>CHAT</h2>
           <p>Monday-Thursday 8:00am - 4:00pm</p>
           <p>Frday 8:00am - 2:00pm</p>
@@ -70,7 +79,10 @@ function Contact() {
 
         <div className="icon-holder">
         <div className="top-holder">
-        <FaLocationPin className="cont-icon" />
+          <div className="cont-icon_wrapper">
+          <FaLocationPin className="cont-icon" />
+          </div>
+        
           <h2>ADDRESS</h2>
           <h6>307 29th St.NE #107 Kempton Park</h6>
           <p>Monday-Thursday 8:00am - 4:00pm</p>
